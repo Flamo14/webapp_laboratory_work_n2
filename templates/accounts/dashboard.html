@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Your dashboard{% endblock %}
+{% block content %}
+<section class="dashboard-card" aria-labelledby="dashboard-title" data-reveal>
+  <span class="mobile-eyebrow">YOUR SPACE</span>
+  <h1 id="dashboard-title">Welcome in, <span>{{ request.user.username }}</span>.</h1>
+  <p>You’re signed in and ready to get started. This protected page is a simple placeholder for your app’s content.</p>
+  <form method="post" action="{% url 'logout' %}">
+    {% csrf_token %}
+    <button class="primary-button dashboard-logout" type="submit"><span>Sign out</span><span class="button-arrow" aria-hidden="true">→</span></button>
+  </form>
+</section>
+{% endblock %}
