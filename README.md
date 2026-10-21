@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Northstar Django login starter
 
 A reusable Django authentication starter with login, signup, logout, a protected dashboard, responsive templates, and small progressive-enhancement interactions.
@@ -26,3 +27,6 @@ Authentication, password hashing, CSRF protection, and password validation use D
 ## Page interactions
 
 The JavaScript waits for `DOMContentLoaded` before revealing the page, setting the footer year, enabling password visibility controls, and displaying a submission state for valid forms. The forms and authentication remain functional without JavaScript.
+=======
+# webapp_laboratory_work_n2
+>>>>>>> ba33f9418b7dbdc679c57cf920cc40998242d5f4
